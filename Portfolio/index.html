@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="70" tabindex="0">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top glass-nav">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-white fs-4" href="#">⚡KEN Lüvs U</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav" aria-controls="navbarNav" 
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-light active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#works">Works</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+<section id="home" class="hero d-flex align-items-center min-vh-100">
+  <div class="container text-center text-lg-start">
+    <div class="row align-items-center">
+      
+      <!-- Text Section -->
+      <div class="col-lg-6 hero-text">
+        <h1 class="fw-bold display-5 mb-3">
+          Hi, I’m <span class="text-gradient">Kendrick Belacho</span>
+        </h1>
+        <p class="lead fw-semibold mb-4">
+          A <span id="role" class="text-gradient-plus"></span>
+        </p>
+
+        <!-- Neon Button -->
+        <svg style="position: absolute; width: 0; height: 0;">
+          <filter width="3000%" x="-1000%" height="3000%" y="-1000%" id="unopaq">
+            <feColorMatrix values="1 0 0 0 0 
+                                   0 1 0 0 0 
+                                   0 0 1 0 0 
+                                   0 0 0 3 0">
+            </feColorMatrix>
+          </filter>
+        </svg>
+
+        <!-- Center Button -->
+        <div class="d-flex justify-content-center justify-content-lg-start">
+          <a href="#works" class="button">
+            <div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">View My Work</div>
+          </a>
+        </div>
+      </div>
+
+        <div class="contact-cyber-bg">
+        <!-- Vertical + horizontal lines -->
+        <div class="line-vertical"></div>
+        <div class="line-vertical"></div>
+        <div class="line-horizontal"></div>
+        <div class="line-horizontal"></div>
+
+        <!-- Floating particles -->
+        <div class="particle" style="--x:10%; --y:20%; --size:3px;"></div>
+        <div class="particle" style="--x:50%; --y:40%; --size:2px;"></div>
+        <div class="particle" style="--x:80%; --y:60%; --size:4px;"></div>
+        <div class="particle" style="--x:30%; --y:80%; --size:2px;"></div>
+
+        <!-- Neon grid overlay -->
+        <div class="grid-overlay"></div>
+        </div>
+
+      <!-- Image Section -->
+<div class="col-lg-6 text-center mt-4 mt-lg-0 position-relative">
+  <img src="470645963_9074386755933772_9066416405155230953_n.jpg" 
+       alt="Profile Photo" 
+       class="img-fluid rounded-4 shadow-lg position-relative" 
+       style="z-index: 5;">
+</div>
+    </div>
+  </div>
+
+
+</section>
+
+<!-- About -->
+<section id="about" class="py-5">
+  <div class="container-fluid text-center">
+    <h2 class="fw-bold mb-3 text-gradient">Who Am I?</h2>
+
+    <div class="container text-center">
+        <p class="fs-5 text-light">
+        I’m <strong>Kendrick Belacho</strong>, a fresh graduate from 
+        <strong>National University Dasmariñas</strong> with a degree in 
+        <strong>BS Information Technology</strong>, specialized in Mobile & Web Applications.  
+        <br><br>
+        I’m passionate about building <span class="text-gradient">user-friendly, and clean web experiences</span>. 
+        My strengths lie in problem-solving, debugging complex systems, and learning new technologies fast.  
+        <br><br>
+        I gained real-world exposure as a <strong>Quality Assurance Analyst Intern</strong> at 
+            <strong>EastWest Banking Corporation</strong> and <strong>Xurpas Enterprise Inc</strong>, completing 
+            over <strong>800 hours</strong> of QA and project support. During this time, I worked on 
+            <strong>manual testing</strong>, <strong>automated testing</strong>, creating and executing 
+            <strong>test scripts</strong>, writing <strong>test cases</strong>, and ensuring overall product quality 
+            through <strong>Bug Reporting</strong>, documentation, and close collaboration with developers.  
+            <br><br>
+
+        Beyond tech, I’m all about <span class="text-gradient">basketball, video games, movies, and music</span>—they keep me balanced, inspired, 
+        and creative. My long-term goal is to grow into a <strong>full-stack developer</strong> and dive deeper into 
+        <strong>cloud computing & AI-driven applications</strong>.  
+        <br><br>
+        I believe in <span class="text-gradient">discipline, continuous learning, and creating tech that leaves an impact.</span>
+        </p>
+    </div>
+
+    <!-- Skills -->
+    <div class="mt-5">
+    <h3 class="fw-bold text-gradient mb-4 text-center">⚡ My Tech Stack ⚡</h3>
+    
+    <div class="slider">
+        <div class="slide-track">
+        <div class="slide"><span class="cyber-badge">HTML</span></div>
+        <div class="slide"><span class="cyber-badge">CSS</span></div>
+        <div class="slide"><span class="cyber-badge">PHP</span></div>
+        <div class="slide"><span class="cyber-badge">MySQL</span></div>
+        <div class="slide"><span class="cyber-badge">Java</span></div>
+        <div class="slide"><span class="cyber-badge">JavaScript</span></div>
+        <div class="slide"><span class="cyber-badge">Python</span></div>
+        <div class="slide"><span class="cyber-badge">C#</span></div>
+        <div class="slide"><span class="cyber-badge">C++</span></div>
+        <!-- duplicate for infinite scroll -->
+        <div class="slide"><span class="cyber-badge">HTML</span></div>
+        <div class="slide"><span class="cyber-badge">CSS</span></div>
+        <div class="slide"><span class="cyber-badge">PHP</span></div>
+        <div class="slide"><span class="cyber-badge">MySQL</span></div>
+        <div class="slide"><span class="cyber-badge">Java</span></div>
+        <div class="slide"><span class="cyber-badge">JavaScript</span></div>
+        <div class="slide"><span class="cyber-badge">Python</span></div>
+        <div class="slide"><span class="cyber-badge">C#</span></div>
+        <div class="slide"><span class="cyber-badge">C++</span></div>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- Works Section -->
+<section id="works" class="py-5 bg-white position-relative overflow-hidden">
+  <div class="container text-center position-relative" style="z-index:5;">
+    <h2 class="fw-bold mb-5 text-gradient">My Work</h2>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <img src="kasangga_w.jpg" class="img-fluid rounded-4 shadow hover-zoom"
+             alt="Work 1" data-bs-toggle="modal" data-bs-target="#work1Modal">
+      </div>
+      <div class="col-md-3">
+        <img src="kasangga_m.png" class="img-fluid rounded-4 shadow hover-zoom"
+             alt="Work 2" data-bs-toggle="modal" data-bs-target="#work2Modal">
+      </div>
+      <div class="col-md-3">
+        <img src="btngbkl.gif" class="img-fluid rounded-4 shadow hover-zoom"
+             alt="Work 3" data-bs-toggle="modal" data-bs-target="#work3Modal">
+      </div>
+      <div class="col-md-3">
+        <img src="Brutalism (1).png" class="img-fluid rounded-4 shadow hover-zoom"
+             alt="Work 4" data-bs-toggle="modal" data-bs-target="#work4Modal">
+      </div>
+    </div>
+  </div>
+
+  <!-- Particle layer -->
+  <canvas id="worksParticles" class="position-absolute top-0 start-0 w-100 h-100"></canvas>
+</section>
+
+
+
+<!-- 🔥 Modals -->
+<!-- Work 1 Modal -->
+<div class="modal fade" id="work1Modal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light rounded-4 shadow-lg">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Kasangga Web App</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="kasangga_w.jpg" class="img-fluid rounded mb-3" alt="">
+        <p>This project is a web platform developed for the Kasangga Web Application. I served as the main developer, responsible for driving the project from initial concept to final deployment. The platform was built using HTML, PHP, MySQL, and JavaScript, allowing for a dynamic, responsive, and database-driven experience. My work included designing the core architecture, implementing key functionalities, and ensuring the application runs smoothly and efficiently for end-users.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Work 2 Modal -->
+<div class="modal fade" id="work2Modal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light rounded-4 shadow-lg">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Kasangga Mobile App</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center mb-3">
+          <img src="kasangga_m.png" class="img-fluid rounded smaller-img" alt="">
+        </div>
+        <p>
+          This mobile app was developed using Flutter, Android Studio, and PHP. I served as the lead developer, overseeing the project from start to finish. My responsibilities included not only coding the core functionality but also conducting thorough testing and debugging to ensure a smooth, seamless user experience. I paid special attention to UI design, making sure the interface was intuitive, responsive, and visually appealing across different devices.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Work 3 Modal -->
+<div class="modal fade" id="work3Modal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light rounded-4 shadow-lg">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Artwork Commissioning</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center mb-3">
+          <img src="btngbkl.gif" class="img-fluid rounded smaller-img" alt="">
+        </div>
+        <p>
+          I have also taken on commissions where I create custom logos for groups, tailoring each design to their specific vision and preferences. Additionally, I have animated these logos into GIFs, ensuring the final product reflects the style and personality the client desires.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Work 4 Modal -->
+<div class="modal fade" id="work4Modal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light rounded-4 shadow-lg">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Artwork Freestyle</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center mb-3">
+          <img src="Brutalism (1).png" class="img-fluid rounded smaller-img" alt="">
+        </div>
+        <p>
+          This is also my work in which piece applies a brutalist design approach, using oversized typography, stark contrasts, and visible grid elements to emphasize raw structure. The layout embraces asymmetry, layering photography with geometric shapes, wireframes, and abstract linework for a chaotic yet intentional composition. Bold electric blue accents against a black backdrop amplify the retro-futurist and experimental feel, rejecting minimalism in favor of loud, disruptive visual energy.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact -->
+<section id="contact" class="py-5" style="background: linear-gradient(135deg, #0d0d0d, #111);">
+  <div class="container text-center position-relative">
+    <h2 class="text-gradient mb-5">Let’s Connect</h2>
+
+    <div class="d-flex flex-column align-items-center gap-4">
+      <!-- Email -->
+      <a href="mailto:Kendrick.belacho@gmail.com" class="contact-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0ff" viewBox="0 0 16 16" class="me-2">
+          <path d="M0 4a2 2 0 012-2h12a2 2 0 012 2v.217l-8 4.8-8-4.8V4z"/>
+          <path d="M0 4.697v7.104l5.803-3.482L0 4.697zM6.761 8.83l-6.761 4.064A2 2 0 002 14h12a2 2 0 001.999-1.107l-6.762-4.063L8 9.583l-1.239-.753zM16 4.697l-5.803 3.622L16 11.801V4.697z"/>
+        </svg>
+        Kendrick.belacho@gmail.com
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/kendrick-belacho-117030285" class="contact-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0ff" viewBox="0 0 16 16" class="me-2">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zM4.943 13.5V6.276H2.542v7.224h2.401zm-1.2-8.26c.837 0 1.362-.555 1.362-1.25-.015-.71-.525-1.25-1.347-1.25-.822 0-1.362.54-1.362 1.25 0 .695.525 1.25 1.332 1.25h.015zm4.908 8.26v-3.937c0-.212.015-.423.078-.574.171-.423.562-.86 1.217-.86.858 0 1.2.648 1.2 1.598v3.773h2.401v-4.045c0-2.183-1.162-3.2-2.71-3.2-1.253 0-1.805.693-2.117 1.18h.015v-1.016H7.651c.03.648 0 7.224 0 7.224h2.401z"/>
+        </svg>
+        Linkedin Profile
+      </a>
+
+      <!-- Facebook -->
+        <a href="https://www.facebook.com/kenbelachoooo" class="contact-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0ff" viewBox="0 0 16 16" class="me-2">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.99 2.92 7.3 6.75 7.93v-5.61H4.9V8h1.85V6.26c0-1.83 1.09-2.85 2.76-2.85.8 0 1.64.14 1.64.14v1.81h-.93c-.92 0-1.21.57-1.21 1.16V8h2.06l-.33 2.32h-1.73v5.61C13.08 15.3 16 11.99 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        Ken Belacho
+        </a>
+    </div>
+
+    <!-- Animated cyber lines in background -->
+    <div class="contact-lines">
+      <span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-dark text-white">
+    <p class="mb-0">&copy; 2025 Kendrick Belacho 🚀</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="roles.js"></script>
+<script src="particles.js"></script>
+
+</body>
+</html>
